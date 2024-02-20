@@ -1,0 +1,25 @@
+cabal-version:      3.0
+name:               unicodeAlec
+version:            0.1.0.0
+synopsis:           useful code for unicode stuff
+-- description:
+license:            MIT
+license-file:       LICENSE
+author:             AlecRodriguez3782
+maintainer:         alec.rodriguez01@utrgv.edu
+-- copyright:
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+-- extra-source-files:
+
+common warnings
+    ghc-options: -Wall
+
+executable unicodeAlec
+    import:           warnings
+    main-is:          Main.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
