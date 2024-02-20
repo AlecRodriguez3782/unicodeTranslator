@@ -1,14 +1,5 @@
 module Main where
 
-{--    
-
-       All I can say is Post orgasmic illness syndrome and depression suck. Other than that, 
-       This program is in the works but can currently work only I believe for all valid haskell Chars but, 
-       I don't think it works for many unicode code points. When I stop having POIS symptoms maybe I will get my cognition back 
-       and be able to accomplish something with my life and this program again. Just have to wait 7 days! Oh boy how fun! 
-       - Alec 
---}
-
 import Data.Char (ord, chr)
 import Numeric (showHex, readHex) 
 import Control.Monad (forever) 
